@@ -20,3 +20,8 @@ raspberry Pi and mpr121-based sampler
 * `sudo pip3 install adafruit-circuitpython-mpr121`
 * `sudo pip3 install board`
 * `sudo pip
+ 
+ 
+ run `python3`, NOT `python`
+ 
+ 
