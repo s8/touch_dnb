@@ -16,6 +16,7 @@ raspberry Pi and mpr121-based sampler
 * `sudo apt-get install -y python-smbus`
 * `sudo apt-get install -y i2c-tools`
 * configure i2c: https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-i2c
+* install adafruit libraries: https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi
 * `git clone https://github.com/s8/touch_dnb.git`
 * `sudo pip3 install adafruit-circuitpython-mpr121`
 * `sudo pip3 install board`
