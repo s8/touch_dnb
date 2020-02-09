@@ -18,6 +18,9 @@ mpr121 = adafruit_mpr121.MPR121(i2c)
 # Note you can optionally change the address of the device:
 #mpr121 = adafruit_mpr121.MPR121(i2c, address=0x91)
 
+# Initialise pygame mixer
+pygame.mixer.pre_init(48000,-16,2,1024)
+
 # Initialise pygame module
 pygame.init()
 
